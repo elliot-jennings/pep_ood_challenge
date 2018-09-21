@@ -6,7 +6,7 @@
 
 1. Fork this repository.
 
-2. Set up the project locally, bundle install and open up the challenge in atom.
+2. Set up the project locally (from your fork), bundle install and open up the challenge in atom.
 
 3. Read the rest of this Readme and inspect all the project files.
 
@@ -25,7 +25,7 @@ Hello Modular World
 
 ### The Challenge
 
-**We have a request from Pep Guardiola to deal with his new transfer targets! All his current targets and statistics are contained in the ```transfer_targets.json``` file provided (they will be randomly generated each time you run the main ruby program). The task is simple, he wants us to sort his candidates based on his following criteria:**
+**We have a request from Pep Guardiola to deal with his new transfer targets! All his targets and statistics are contained in the ```transfer_targets.json``` file provided (they will be randomly generated each time you run the main ruby program). The task is simple, he wants us to accept candidates based on the following criteria:**
 
 ```
 ## Experience Criteria
@@ -56,18 +56,18 @@ Hello Modular World
 
 2. Reject candidates that are below a Height of 1.80m.
 
-(Hint: data has weight as a string and it's a float, so .gsub and .to_f)
+(Hint: data has height as a string and it's a float, so .gsub and .to_f)
 
 ```
 
 **Pep then wants his candidates to be placed in another file called ```successful_candidates.json``` for him to review. Make sure the data is in JSON or else he'll get really frustrated!** :rage:
 
-#### Checking your list with Pep.
-Simply run ```$ ruby pep_check.rb``` and see what he says!
+#### Checking your candidates with Pep
+Simply run ```$ ruby pep_check.rb``` and see what he says! If Pep errors, there is probably a problem with how your successful candidates data file is formatted.
 
 ### Bonus - Test Driven Development
 
-Test Driven Development is **essential** in the software development field. As we are not teaching you to become part of the development workforce, testing will not feature heavily in this course, however, it still could be an idea to try out some TDD in an easy exercise like this, especially if you are interested in branching out into the profession.
+Test Driven Development is **essential** in the software development field. As we are not teaching you to become part of the development workforce, testing will not feature heavily in this course, however, it still could be an idea to try out some TDD in an easy exercise like this, especially if you are interested in branching out into the profession. Plus, you won't have to relly on pep to check your answers :wink:
 
 Here is a great little tutorial using the game [Fizzbuzz](https://medium.com/craft-academy/introduction-to-ruby-and-rspec-135da4051802). Once you've completed it, give rspec a go in Pep's challenge, it will get you coding the TDD way in no time!
 
