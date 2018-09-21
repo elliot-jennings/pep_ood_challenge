@@ -11,22 +11,22 @@ class PlayerGenerator
       name: player_name,
       age: player_age,
       position: player_position,
-      club: [{
+      club: {
         division: club_div
-      }],
-      height: player_height,
-      weight: player_weight,
-      statistics: [{
+      },
+      statistics: {
+        height: player_height,
+        weight: player_weight,
         appearances: rand(0..100),
         goals: rand(0..100),
         assists: rand(0..100),
         tackles: rand(0..100),
         interceptions: rand(0..100),
-        cards: [{
+        cards: {
           red: rand(0..10),
           yellow: rand(0..20)
-        }]
-      }]
+        }
+      }
     }
   end
 
@@ -41,7 +41,7 @@ class PlayerGenerator
   end
 
   def player_position
-    positions = %w(Forward, Midfield, Defence)
+    positions = %w(Forward Midfielder Defender)
     positions.sample
   end
 

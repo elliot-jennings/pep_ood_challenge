@@ -42,27 +42,28 @@ Hello Modular World
 
 2. Reject candidates that are below a Weight of 68kg.
 
-3. Reject candidates that have had 8 or more red cards.
+(Hint: data has weight as a string, so .gsub and .to_i)
 
 ## As Midfielders
 
-1. Successful candidates must have made more than, or equal too, 50 Assists and 25 Goals.
-
-1. Successful candidates must have 'Silva' as their first or last name.
+1. Successful candidates must have 'Silva' within their full name.
 
 2. Reject candidates that have had an accumulation of more than, or equal too, 20 cards of any colour.
 
 ## As Forwards
 
-1. Successful candidates must have contributed to at least 60 Goals.
+1. Successful candidates must have scored or contributed to at least 60 goals.
 
 2. Reject candidates that are below a Height of 1.80m.
 
-3. Reject candidates that have 'Bob' in their first or last name.
+(Hint: data has weight as a string and it's a float, so .gsub and .to_f)
 
 ```
 
 **Pep then wants his candidates to be placed in another file called ```successful_candidates.json``` for him to review. Make sure the data is in JSON or else he'll get really frustrated!** :rage:
+
+#### Checking your list with Pep.
+Simply run ```$ ruby pep_check.rb``` and see what he says!
 
 ### Bonus - Test Driven Development
 
