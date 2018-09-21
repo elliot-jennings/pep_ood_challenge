@@ -1,6 +1,6 @@
-## The Pep OOD Challenge
+## Pep's OOD Challenge
 
-[pep]()
+![pep](https://github.com/sportsdatasolutions/pep_ood_challenge/blob/master/pep.png)
 
 ### Instructions
 
