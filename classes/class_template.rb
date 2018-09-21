@@ -9,12 +9,12 @@ class ClassTemplate
 
   # main instance method
   def call
-    my_class_helper_methods
+    my_class_helper_method
   end
 
   private
 
-  def my_class_helper_methods
+  def my_class_helper_method
     puts message
   end
 end

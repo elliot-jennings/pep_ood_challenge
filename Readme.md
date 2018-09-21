@@ -8,7 +8,7 @@
 
 2. Set up the project locally, bundle install and open up the challenge in atom.
 
-3. Read the rest of this Readme and inspect it's files, then fill in the 'My Solution' section with information on how you intend to approach the challenge.
+3. Read the rest of this Readme and inspect all the project files.
 
 4. The ```player_selector.rb``` file will be your main ruby program. Before you attempt the challenge, make sure you run the program once to randomly populate the ```transfer_targets.json``` file with data you will use in this challenge.
 
@@ -21,7 +21,7 @@ Hello Modular World
 
 5. Remember to utilise OOP and use classes and/or modules to modularise your code. You'll notice example Ruby Class and Module templates in the ```classes``` and  ```modules``` folders. It's important to take into account the 'S' and 'D' in 'SOLID' when you approach this task. It may seem overkill in smaller projects but they are essential when moving onto larger projects, so better practice now rather than later (where you could end up with monolithic code bases that look ugly and are hard to debug), speaking from experience here...
 
-6. After you complete the challenge have a review session with your buddy.
+6. After you complete the challenge have a review session with your buddy. Remember to provide your own Readme.md detailing how you approached the challenge and how your buddy can review your solution.
 
 ### The Challenge
 

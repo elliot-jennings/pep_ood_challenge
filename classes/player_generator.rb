@@ -31,7 +31,7 @@ class PlayerGenerator
   end
 
   def player_name
-    first_names = %w(Zatlan David Wayne Mesut Lionel Cristiano Mohammed Sergio)
+    first_names = %w(Zatlan Silva David Wayne Mesut Lionel Cristiano Mohammed Sergio)
     last_names = %w(Silva Bobby Messi Ronaldo Salah Ozil Ramos)
     "#{first_names.sample} #{last_names.sample}"
   end
