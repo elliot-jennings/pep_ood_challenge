@@ -62,7 +62,7 @@ Hello Modular World
 
 **Pep then wants his candidates to be placed in another file called ```successful_candidates.json``` for him to review. Make sure the data is in JSON or else he'll get really frustrated!** :rage:
 
-#### Checking your candidates with Pep
+### Checking your successful candidates with Pep
 Simply run ```$ ruby pep_check.rb``` and see what he says! If Pep errors, there is probably a problem with how your successful candidates data file is formatted.
 
 ### Bonus - Test Driven Development
