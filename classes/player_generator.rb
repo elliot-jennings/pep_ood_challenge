@@ -23,8 +23,8 @@ class PlayerGenerator
         tackles: rand(0..100),
         interceptions: rand(0..100),
         cards: [{
-          red: rand(0..100),
-          yellow: rand(0..100)
+          red: rand(0..10),
+          yellow: rand(0..20)
         }]
       }]
     }
