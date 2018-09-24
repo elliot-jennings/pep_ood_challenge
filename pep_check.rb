@@ -4,7 +4,7 @@ def pep_check(position)
   successful_candidates = JSON.parse(File.read('successful_candidates.json'))
   players = successful_candidates.find_all { |player| player['position'] == position }
   if players.empty?
-    result = "No #{position}s! Re-run your player selector please."
+    result = "No #{position}s! Re-run your set_up.rb file please."
   else
     results = []
     players.each do |player|

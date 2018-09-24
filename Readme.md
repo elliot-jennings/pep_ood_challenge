@@ -10,13 +10,11 @@
 
 3. Read the rest of this Readme and inspect all the project files.
 
-4. The ```player_selector.rb``` file will be your main ruby program. Before you attempt the challenge, make sure you run the program once to randomly populate the ```transfer_targets.json``` file with data you will use in this challenge.
+4. The ```player_selector.rb``` file will be your main ruby program. Before you attempt the challenge, make sure you run the ```set_up.rb``` program once to randomly populate the ```transfer_targets.json``` file with data you will use in this challenge.
 
 ```
-$ ruby player_selector.rb
+$ ruby set_up.rb
 Transfer List Successfully Generated
-Hello Class World
-Hello Modular World
 ```
 
 5. Remember to utilise OOP and use classes and/or modules to modularise your code. You'll notice example Ruby Class and Module templates in the ```classes``` and  ```modules``` folders. It's important to take into account the 'S' and 'D' in 'SOLID' when you approach this task. It may seem overkill in smaller projects but they are essential when moving onto larger projects, so better practice now rather than later (where you could end up with monolithic code bases that look ugly and are hard to debug), speaking from experience here...
