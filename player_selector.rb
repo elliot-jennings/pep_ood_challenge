@@ -31,5 +31,4 @@ ClassTemplate.new('Hello Class World').call
 ModuleTemplate::my_module_method('Hello Modular World')
 
 
-# Remember to generate your sorted transfer_targets array into JSON ( Tip: JSON.generate(transfer_targets) )
-# Then 'write' your sorted transfer targets into the successful_candidates.json file. ( Tip: File.write('successful_candidates.json', transfer_targets) )
+# Then 'write' your sorted transfer targets into the successful_candidates.json file. ( Tip: File.write('successful_candidates.json', transfer_targets.to_json) )
