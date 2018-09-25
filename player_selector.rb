@@ -15,7 +15,7 @@ transfer_targets_and_stats = JSON.parse(File.read('transfer_targets.json'))
 # Example Class.
 ClassTemplate.new('Hello Class World').call
 
-# Example Module ( Tip: Modules can be extended into Classes! Google 'Ruby include vs extend' ).
-ModuleTemplate::my_module_method('Hello Modular World')
+# Example Module ( Tip: Modules can also be included into Classes! ).
+my_module_method('Hello Modular World')
 
 # Then 'write' your sorted transfer targets into the successful_candidates.json file ( Tip: File.write('successful_candidates.json', transfer_targets.to_json) ).
