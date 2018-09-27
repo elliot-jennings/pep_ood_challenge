@@ -10,12 +10,7 @@
 
 3. Read the rest of this Readme and inspect all the project files.
 
-4. The ```player_selector.rb``` file will be your main ruby program. Before you attempt the challenge, make sure you run the ```set_up.rb``` program once to randomly populate the ```transfer_targets.json``` file with data you will use in this challenge.
-
-```
-$ ruby set_up.rb
-Transfer List Successfully Generated
-```
+4. The ```player_selector.rb``` file will be your main ruby program.
 
 5. Remember to utilise OOP and use classes and/or modules to modularise your code. You'll notice example Ruby Class and Module templates in the ```classes``` and  ```modules``` folders. It's important to take into account the 'S' and 'D' in 'SOLID' when you approach this task. It may seem overkill in smaller projects but they are essential when moving onto larger projects, so better practice now rather than later (where you could end up with monolithic code bases that look ugly and are hard to debug), speaking from experience here...
 
@@ -28,40 +23,51 @@ Transfer List Successfully Generated
 ```
 ## Experience Criteria
 
-1. Successful candidates must be aged 18 or above.
+1. Successful candidates must currently be playing in either of the following clubs:
+- Arsenal
+- Chelsea
+- Crystal Palace
+- Leicester City
+- Liverpool
+- Manchester United
+- Southampton
+- Tottenham Hotspur
+- Watford
 
-2. Successful candidates must currently be playing in a division 1 club.
+2. Successful candidates must have made a minimum of 14 Appearances.
 
-3. Successful candidates must have made a minimum of 15 appearances.
+## As Goalkeepers
+
+1. Successful candidates will have made made over 4000 'Passes'.
+
+2. Reject candidates that have made less than and average of 30 'Passes per match'.
 
 ## As Defenders
 
-1. Successful candidates will have made more than 40 tackles and 20 interceptions.
+1. Successful candidates will have a 'Tackle Success %' of 70 or above.
 
-2. Reject candidates that are below a Weight of 68kg.
-
-(Hint: data has weight as a string, so .gsub and .to_i)
+2. Reject candidates that have an accumulation of more than 6 'Red Cards'.
 
 ## As Midfielders
 
-1. Successful candidates must have 'Silva' within their full name.
+1. Successful candidates must have a combined total of over 70 'Goals' and 'Assists'.
 
-2. Reject candidates that have had an accumulation of more than, or equal too, 20 cards of any colour.
+2. Pep only wants two Midfielders in his list, sorted via the highest number of 'Assists'.
 
 ## As Forwards
 
-1. Successful candidates must have scored or contributed to at least 60 goals.
+1. Successful candidates will have attempted more than 100 Shots.
 
-2. Reject candidates that are below a Height of 1.80m.
+2. Successful candidates must have a Shooting Accuracy above 35%.
 
-(Hint: data has height as a string and it's a float, so .gsub and .to_f)
+(Hint: Shooting Accuracy is not in the data, so it will have to be calculated via Shots and Shots on target)
 
 ```
 
 **Pep then wants his candidates to be placed in another file called ```successful_candidates.json``` for him to review. Make sure the data is in JSON or else he'll get really frustrated!** :rage:
 
 ### Checking your successful candidates with Pep
-Simply run ```$ ruby pep_check.rb``` and see what he says! If Pep errors, there is probably a problem with how your successful candidates data file is formatted.
+Coming Soon.
 
 ### Bonus - Test Driven Development
 
