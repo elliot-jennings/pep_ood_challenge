@@ -14,7 +14,9 @@
 
 5. Remember to utilise OOP and use classes and/or modules to modularise your code. You'll notice example Ruby Class and Module templates in the ```classes``` and  ```modules``` folders. It's important to take into account the 'S' and 'D' in 'SOLID' when you approach this task. It may seem overkill in smaller projects but they are essential when moving onto larger projects, so better practice now rather than later (where you could end up with monolithic code bases that look ugly and are hard to debug), speaking from experience here...
 
-6. After you complete the challenge have a review session with your buddy. Remember to provide your own Readme.md detailing how you approached the challenge and how your buddy can review your solution.
+6. Remember the difference between an integer and a float. Use IRB to test out calculations with integers vs floats.
+
+7. After you complete the challenge have a review session with your buddy. Remember to provide your own Readme.md detailing how you approached the challenge and how your buddy can review your solution.
 
 ### The Challenge
 
@@ -26,39 +28,34 @@
 1. Successful candidates must currently be playing in either of the following clubs:
 - Arsenal
 - Chelsea
-- Crystal Palace
 - Leicester City
 - Liverpool
 - Manchester United
-- Southampton
 - Tottenham Hotspur
-- Watford
 
-2. Successful candidates must have made a minimum of 14 Appearances.
+2. Successful candidates must have made a minimum of 50 Appearances.
 
 ## As Goalkeepers
 
-1. Successful candidates will have made made over 4000 'Passes'.
+1. Successful candidates will have made made over 3000 'Passes'.
 
-2. Reject candidates that have made less than and average of 30 'Passes per match'.
+2. Reject candidates that have made less than an average of 28.00 'Passes per match'.
 
 ## As Defenders
 
-1. Successful candidates will have a 'Tackle Success %' of 70 or above.
+1. Successful candidates will have a 'Tackle Success %' of 81 or above.
 
-2. Reject candidates that have an accumulation of more than 6 'Red Cards'.
+2. Reject candidates that have an accumulation of more than 4 'Red Cards'.
 
 ## As Midfielders
 
-1. Successful candidates must have a combined total of over 70 'Goals' and 'Assists'.
-
-2. Pep only wants two Midfielders in his list, sorted via the highest number of 'Assists'.
+1. Successful candidates must have a combined total of over 80 'Goals' and 'Assists'.
 
 ## As Forwards
 
 1. Successful candidates will have attempted more than 100 Shots.
 
-2. Successful candidates must have a Shooting Accuracy above 35%.
+2. Successful candidates must have a Shooting Accuracy above or equal to 45 percent.
 
 (Hint: Shooting Accuracy is not in the data, so it will have to be calculated via Shots and Shots on target)
 
@@ -67,7 +64,38 @@
 **Pep then wants his candidates to be placed in another file called ```successful_candidates.json``` for him to review. Make sure the data is in JSON or else he'll get really frustrated!** :rage:
 
 ### Checking your successful candidates with Pep
-Coming Soon.
+
+The list of our successful candidates:
+
+1. Goalkeepers:
+
+```
+Kasper Schmeichel
+```
+
+2. Defenders:
+
+```
+Danny Rose
+Luke Shaw
+```
+
+3. Midfielders:
+
+```
+Christian Eriksen
+Cesc Fàbregas
+Juan Mata
+James Milner
+```
+
+4. Forwards:
+
+```
+Harry Kane
+Romelu Lukaku
+Jamie Vardy
+```
 
 ### Bonus - Test Driven Development
 
