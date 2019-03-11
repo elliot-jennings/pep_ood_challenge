@@ -15,9 +15,15 @@ def filter_clubs_criteria(targets, clubs_list)
   targets.delete_if { |player| !clubs_list.include?(player['Club']) }
   targets.delete_if { |player| player['Position'] == 'Goalkeeper' && player['Passes'].to_i < 3000 }
   targets.delete_if { |player| player['Position'] == 'Goalkeeper' && player['Passes per match'].to_f < 28.00 }
+  targets.delete_if { |player| player['Position'] == 'Defender' && player['Tackle success %'].to_i < 81 }
+  targets.delete_if { |player| player['Position'] == 'Defender' && player['Red cards'].to_i > 4 }
+  targets.delete_if { |player| player['Position'] == 'Midfielder' && player['Goals'].to_i + player['Assists'].to_i < 80 }
+  targets.delete_if { |player| player['Position'] == 'Forward' && player['Shots'].to_i < 101 }
+  targets.delete_if { |player| player['Position'] == 'Forward' && player['Shots on target'].to_i * 100 / player['Shots'].to_i < 45 }
 end
 
 filter_clubs_criteria(targets, clubs_list)
 
 # # Then 'write' your sorted transfer targets into the successful_candidates.json file.
 File.write('successful_candidates.json', targets.to_json)
+
